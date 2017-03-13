@@ -25,6 +25,8 @@ def calculate(arg):
 			
 			stack.append(result)
 	return stack.pop()
+def hello():
+	return "hello"
 
 def main():
 	while True:
