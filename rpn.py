@@ -39,8 +39,6 @@ def calculate(arg):
 				cprint(interOut, OPERATOR_COLOR[operand])
 			stack.append(result)
 	return stack.pop()
-def hello():
-	return "hello"
 
 def main():
 	while True:
