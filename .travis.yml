@@ -4,6 +4,6 @@ python:
 # command to install dependencies
 install: "pip install -r requirements.txt"
 # command to run tests
-script: coverage run --source=tests -m discover -s tests/
+script: coverage run --source=tests -m unittest discover -s tests/
 after_success:
   - coveralls
